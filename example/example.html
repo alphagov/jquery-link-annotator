@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="../lib/jquery-link-annotator.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../lib/jquery-link-annotator.js" type="text/javascript" charset="utf-8"></script>
+    <script src="example.js" type="text/javascript" charset="utf-8"></script>
+	<title>example</title>
+</head>
+<body>
+    <ul>
+        <li>
+            <a class="annotation" href="http://bbc.co.uk" title="This shows a title and a link">
+                bbc.co.uk - just a link
+            </a>
+        </li>
+        <li>
+            <a class="annotation" href="http://wordpress.com" title="This shows a title, a link and an extra annotation">
+                <span class="annotate-description">This is a  description of this link</span>
+                wordpress.com - plus description
+            </a>
+        </li>
+        <li>
+            <a class="annotation" href="#" title="This shows a title and description with no link">
+                <span class="annotate-description">Use this when you a pointing at a placeholder</span>
+                notbeenbuiltyet.org - no link
+            </a>
+        </li>
+    </ul>
+</body>
+</html>

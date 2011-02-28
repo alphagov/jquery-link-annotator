@@ -29,7 +29,7 @@ It adds lightbox style popups for links with the class annotation.
     </ul>
     
     
-#Javascript
+##Javascript
 
     jQuery(document).ready(function() {
         $('a.annotation').each(function(index) {

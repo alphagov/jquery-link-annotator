@@ -1,3 +1,7 @@
+# DEPRECATED
+
+This repository is no longer maintained.
+
 # Introduction
 
 This is a JQuery plugin for annotating links in a web app that is incomplete or undergoing development.
